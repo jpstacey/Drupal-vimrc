@@ -1,0 +1,15 @@
+This is my Drupal .vimrc . Check it out to .drupal_vim , then add the 
+following to your core ~/.vimrc :
+
+  noremap <buffer> <F2>#d<CR> :source ~/.drupal_vim/.drupal.vimrc<CR>
+
+Type F2, #d, enter - "<F2>#d<CR>" in Vim syntax - to bring in all the 
+Drupal macros.
+
+Current commands:
+
+ <F2>#f<CR> - start a PHP file with a Doxygen comment
+ <F2>init<CR> - hook_init template
+ <F2>block<CR> - hook_block template
+
+D6-compatible hooks only.
