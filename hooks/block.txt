@@ -1,0 +1,25 @@
+/**
+ * Implementation of hook_block
+ */
+function HOOK_block($op, $delta = 0, $edit = array()) {
+  switch($op) {
+    // Block view options
+    case 'list':
+      $blocks[**] = array(
+        'info' => t(**)
+      );
+      return $blocks;
+    break;
+    case 'view':
+      switch($delta) {
+      }
+      return $block;
+    break;
+
+    // Configuration options
+    case 'configure':
+    break;
+    case 'save':
+    break;
+  }
+}
