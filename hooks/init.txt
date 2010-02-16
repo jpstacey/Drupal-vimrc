@@ -1,0 +1,5 @@
+/**
+ * Implementation of hook_init
+ */
+function HOOK_init() {
+}

@@ -1,0 +1,26 @@
+/**
+ * Implementation of hook_menu
+ */
+function HOOK_menu() {
+  $items[**] = array(
+    'title' => **,
+    //'title callback' => '',
+    //'title arguments' => '',
+    //'description' => '',
+
+    'page callback' => **,
+    // 'page arguments' => array(),
+
+    //'access callback' => '',
+    'access arguments' => array(**),
+
+    // 'file' => '',
+    // 'file path' => '',
+    // 'weight' => '',
+    // 'menu_name' => '',
+    // 'type' => '',
+  );
+
+  return $items;
+}
+

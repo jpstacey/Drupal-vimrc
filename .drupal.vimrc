@@ -43,7 +43,7 @@ let php_folding = 1
 " Function to insert a hook template
 function! s:InsertHook(hook)
   " Insert
-  exe "read ~/.drupal_vim/" . a:hook .  ".txt"
+  exe "read ~/.drupal_vim/hooks/" . a:hook .  ".txt"
   " Replace hook name with module name
   " Can't always autodetect file name e.g. if file not saved
   let s:name = input("Module name? ")
@@ -51,8 +51,9 @@ function! s:InsertHook(hook)
 endfunction
 
 " Hook template mappings
-noremap <buffer> <F2>init<CR> :call <SID>InsertHook("init")<CR>
 noremap <buffer> <F2>block<CR> :call <SID>InsertHook("block")<CR>
+noremap <buffer> <F2>menu<CR> :call <SID>InsertHook("menu")<CR>
+noremap <buffer> <F2>init<CR> :call <SID>InsertHook("init")<CR>
 
 " Fragments of useful code
 noremap <buffer> <F2>#f<CR> :read ~/.drupal_vim/fragments/top.txt<CR>:set syntax=php<CR> kdd /HOOK<CR>4xa
