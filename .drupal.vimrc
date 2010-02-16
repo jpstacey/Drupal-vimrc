@@ -40,10 +40,19 @@ let php_folding = 1
 " %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 " Hook templates and file fragments
 
-" Function to insert a hook template
 function! s:InsertHook(hook)
+  exe ':call <SID>InsertFile("hooks","' . a:hook . '")'
+endfunction
+
+function! s:InsertPP(pp)
+  exe ':call <SID>InsertFile("preprocess","' . a:pp . '")'
+endfunction
+
+
+" Function to insert a hook template
+function! s:InsertFile(direc,file)
   " Insert
-  exe "read ~/.drupal_vim/hooks/" . a:hook .  ".txt"
+  exe ":read ~/.drupal_vim/" . a:direc .  "/" . a:file .  ".txt"
   " Replace hook name with module name
   " Can't always autodetect file name e.g. if file not saved
   let s:name = input("Module name? ")
@@ -54,6 +63,12 @@ endfunction
 noremap <buffer> <F2>block<CR> :call <SID>InsertHook("block")<CR>
 noremap <buffer> <F2>menu<CR> :call <SID>InsertHook("menu")<CR>
 noremap <buffer> <F2>init<CR> :call <SID>InsertHook("init")<CR>
+
+" Preprocess template mappings
+noremap <buffer> <F2>pp<CR> :call <SID>InsertPP("default")<CR>
+noremap <buffer> <F2>ppp<CR> :call <SID>InsertPP("page")<CR>
+noremap <buffer> <F2>ppb<CR> :call <SID>InsertPP("block")<CR>
+
 
 " Fragments of useful code
 noremap <buffer> <F2>#f<CR> :read ~/.drupal_vim/fragments/top.txt<CR>:set syntax=php<CR> kdd /HOOK<CR>4xa

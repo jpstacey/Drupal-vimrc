@@ -1,0 +1,5 @@
+/**
+ * Implementation of hook_preprocess_page
+ */
+function HOOK_preprocess_page(&$vars) {
+}

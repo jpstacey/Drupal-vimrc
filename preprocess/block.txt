@@ -1,0 +1,5 @@
+/**
+ * Implementation of hook_preprocess_block
+ */
+function HOOK_preprocess_block(&$vars) {
+}

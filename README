@@ -9,7 +9,14 @@ Drupal macros.
 Current commands:
 
  <F2>#f<CR> - start a PHP file with a Doxygen comment
- <F2>init<CR> - hook_init template
+ <F2>#i<CR> - start a skeleton .info file
+
  <F2>block<CR> - hook_block template
+ <F2>init<CR> - hook_init template
+ <F2>menu<CR> - hook_menu template
+
+ <f2>pp<CR> - hook_preprocess template
+ <f2>ppb<CR> - hook_preprocess_block template
+ <f2>ppp<CR> - hook_preprocess_page template
 
 D6-compatible hooks only.
