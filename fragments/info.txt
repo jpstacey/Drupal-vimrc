@@ -1,0 +1,9 @@
+; $Id$
+; Info file for HOOK module
+name =
+description =
+core =
+
+; dependencies[] =
+; package =
+; php =

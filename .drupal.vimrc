@@ -57,6 +57,7 @@ noremap <buffer> <F2>init<CR> :call <SID>InsertHook("init")<CR>
 
 " Fragments of useful code
 noremap <buffer> <F2>#f<CR> :read ~/.drupal_vim/fragments/top.txt<CR>:set syntax=php<CR> kdd /HOOK<CR>4xa
+noremap <buffer> <F2>#i<CR> :read ~/.drupal_vim/fragments/info.txt<CR>:set syntax=php<CR> kdd /HOOK<CR>4xa
 
 " %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 " And finally...
