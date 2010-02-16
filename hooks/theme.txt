@@ -1,0 +1,14 @@
+/**
+ * Implementation of hook_theme
+ */
+function HOOK_theme($existing, $type, $theme, $path) {
+  return array(
+    ** => array(
+      'arguments' => array(),
+      // 'template' => '',
+      // 'path' => '',
+      // 'file' => '',
+      
+    ),
+  );
+}

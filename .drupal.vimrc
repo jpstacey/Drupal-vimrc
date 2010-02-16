@@ -61,8 +61,10 @@ endfunction
 
 " Hook template mappings
 noremap <buffer> <F2>block<CR> :call <SID>InsertHook("block")<CR>
-noremap <buffer> <F2>menu<CR> :call <SID>InsertHook("menu")<CR>
+noremap <buffer> <F2>fa<CR> :call <SID>InsertHook("form_alter")<CR>
 noremap <buffer> <F2>init<CR> :call <SID>InsertHook("init")<CR>
+noremap <buffer> <F2>menu<CR> :call <SID>InsertHook("menu")<CR>
+noremap <buffer> <F2>theme<CR> :call <SID>InsertHook("theme")<CR>
 
 " Preprocess template mappings
 noremap <buffer> <F2>pp<CR> :call <SID>InsertPP("default")<CR>
