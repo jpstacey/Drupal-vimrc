@@ -16,6 +16,7 @@ Current commands:
  <F2>fa<CR> - hook_form_alter template
  <F2>init<CR> - hook_init template
  <F2>menu<CR> - hook_menu template
+ <F2>napi<CR> - hook_nodeapi template
  <F2>theme<CR> - hook_theme template
 
  <f2>pp<CR> - hook_preprocess template
