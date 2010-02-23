@@ -12,6 +12,10 @@ function HOOK_block($op, $delta = 0, $edit = array()) {
     break;
     case 'view':
       switch($delta) {
+        case **:
+          $block['subject'] = **;
+          $block['content'] = **;
+        break;
       }
       return $block;
     break;
