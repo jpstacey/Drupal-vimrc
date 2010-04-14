@@ -65,11 +65,13 @@ noremap <buffer> <F2>fa<CR> :call <SID>InsertHook("form_alter")<CR>
 noremap <buffer> <F2>init<CR> :call <SID>InsertHook("init")<CR>
 noremap <buffer> <F2>menu<CR> :call <SID>InsertHook("menu")<CR>
 noremap <buffer> <F2>napi<CR> :call <SID>InsertHook("nodeapi")<CR>
+noremap <buffer> <F2>perm<CR> :call <SID>InsertHook("perm")<CR>
 noremap <buffer> <F2>theme<CR> :call <SID>InsertHook("theme")<CR>
 
 " Preprocess template mappings
 noremap <buffer> <F2>pp<CR> :call <SID>InsertPP("default")<CR>
 noremap <buffer> <F2>ppp<CR> :call <SID>InsertPP("page")<CR>
+noremap <buffer> <F2>ppn<CR> :call <SID>InsertPP("node")<CR>
 noremap <buffer> <F2>ppb<CR> :call <SID>InsertPP("block")<CR>
 
 

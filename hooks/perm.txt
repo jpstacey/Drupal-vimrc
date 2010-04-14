@@ -1,0 +1,6 @@
+/**
+ * Implementation of hook_perm
+ */
+function HOOK_perm() {
+  return array();
+}

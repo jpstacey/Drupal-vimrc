@@ -1,0 +1,5 @@
+/**
+ * Implementation of hook_preprocess_node
+ */
+function HOOK_preprocess_node(&$vars) {
+}
