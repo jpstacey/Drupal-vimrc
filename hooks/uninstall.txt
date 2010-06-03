@@ -1,0 +1,5 @@
+/**
+ * Implementation of hook_uninstall
+ */
+function HOOK_uninstall() {
+}
