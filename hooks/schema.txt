@@ -1,0 +1,29 @@
+/**
+ * Implementation of hook_schema
+ */
+function HOOK_schema() {
+  $schema[**] = array(
+    'description' => **,
+    'fields' => array(
+      'id' => array(
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE
+      ),
+      ** => array(
+        'description' => **,
+        'type' => **,
+        'not null' => **,
+        'default' => **
+      ),
+    ),
+    'indexes' => array(
+      **name => array(**columns),
+    ),
+    'unique keys' => array(
+      **name => array(**columns),
+    ),
+    'primary key' => array('id'),
+  );
+  return $schema;
+}

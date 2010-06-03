@@ -67,6 +67,7 @@ noremap <buffer> <F2>install<CR> :call <SID>InsertHook("install")<CR>
 noremap <buffer> <F2>menu<CR> :call <SID>InsertHook("menu")<CR>
 noremap <buffer> <F2>napi<CR> :call <SID>InsertHook("nodeapi")<CR>
 noremap <buffer> <F2>perm<CR> :call <SID>InsertHook("perm")<CR>
+noremap <buffer> <F2>schema<CR> :call <SID>InsertHook("schema")<CR>
 noremap <buffer> <F2>theme<CR> :call <SID>InsertHook("theme")<CR>
 noremap <buffer> <F2>uninstall<CR> :call <SID>InsertHook("uninstall")<CR>
 noremap <buffer> <F2>user<CR> :call <SID>InsertHook("user")<CR>
