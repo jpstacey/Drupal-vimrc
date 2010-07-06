@@ -1,0 +1,5 @@
+/**
+ * Implementation of hook_theme_registry_alter
+ */
+function HOOK_theme_registry_alter(&$reg) {
+}
