@@ -22,8 +22,19 @@ function HOOK_block($op, $delta = 0, $edit = array()) {
 
     // Configuration options
     case 'configure':
+      switch($delta) {
+        case **:
+          $form[**] = **;
+        break;
+      }
+      return $form;
     break;
     case 'save':
+      switch($delta) {
+        case **:
+          variable_set(**, $edit[**]);
+        break;
+      }
     break;
   }
 }
