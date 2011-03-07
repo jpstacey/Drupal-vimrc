@@ -1,0 +1,5 @@
+/**
+ * Implementation of hook_help
+ */
+function HOOK_help($path, $arg) {
+}
