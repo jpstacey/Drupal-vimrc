@@ -1,0 +1,18 @@
+/**
+ * Implementation of hook_requirements
+ */
+function HOOK_requirements($phase) {
+  switch($phase) {
+    case "install":
+    case "runtime":
+  }
+  
+  return array(
+    ** => array(
+      'title' => t(**),
+      'value' => **,
+      'description' => **,
+      'severity' => REQUIREMENT_INFO // _OK _WARNING _ERROR
+    ),
+  );
+}
