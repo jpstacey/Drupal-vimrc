@@ -16,6 +16,7 @@ Current commands:
 
  <F2>block<CR> - hook_block
  <F2>fa<CR> - hook_form_alter
+ <F2>help<CR> - hook_help
  <F2>init<CR> - hook_init
  <F2>install<CR> - hook_install
  <F2>menu<CR> - hook_menu
