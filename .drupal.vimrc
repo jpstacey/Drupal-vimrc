@@ -74,6 +74,7 @@ noremap <buffer> <F2>tra<CR> :call <SID>InsertHook("theme_registry_alter")<CR>
 noremap <buffer> <F2>theme<CR> :call <SID>InsertHook("theme")<CR>
 noremap <buffer> <F2>uninstall<CR> :call <SID>InsertHook("uninstall")<CR>
 noremap <buffer> <F2>user<CR> :call <SID>InsertHook("user")<CR>
+noremap <buffer> <F2>vapi<CR> :call <SID>InsertHook("viewsapi")<CR>
 
 " Preprocess template mappings
 noremap <buffer> <F2>pp<CR> :call <SID>InsertPP("default")<CR>

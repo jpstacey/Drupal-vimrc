@@ -20,7 +20,7 @@ Current commands:
  <F2>init<CR> - hook_init
  <F2>install<CR> - hook_install
  <F2>menu<CR> - hook_menu
- <F2>napi<CR> - hook_nodeapia
+ <F2>napi<CR> - hook_nodeapi
  <F2>perm<CR> - hook_perm
  <F2>req<CR> - hook_requirements
  <F2>schema<CR> - hook_schema
@@ -28,6 +28,7 @@ Current commands:
  <F2>theme<CR> - hook_theme
  <F2>uninstall<CR> - hook_uninstall
  <F2>user<CR> - hook_user
+ <F2>vapi<CR> - hook_views_api
 
  <f2>pp<CR> - hook_preprocess
  <f2>ppb<CR> - hook_preprocess_block
