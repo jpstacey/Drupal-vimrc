@@ -1,0 +1,5 @@
+/**
+ * Implements hook_boot().
+ */
+function HOOK_boot() {
+}
