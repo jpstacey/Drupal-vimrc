@@ -1,5 +1,5 @@
 /**
- * Implementation of hook_schema
+ * Implements hook_schema().
  */
 function HOOK_schema() {
   $schema[**] = array(

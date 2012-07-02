@@ -1,5 +1,5 @@
 /**
- * Implementation of hook_theme
+ * Implements hook_theme().
  */
 function HOOK_theme($existing, $type, $theme, $path) {
   return array(

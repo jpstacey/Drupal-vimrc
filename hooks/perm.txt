@@ -1,5 +1,5 @@
 /**
- * Implementation of hook_perm
+ * Implements hook_perm().
  */
 function HOOK_perm() {
   return array();
