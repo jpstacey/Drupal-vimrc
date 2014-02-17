@@ -1,0 +1,15 @@
+/**
+ * Implements hook_block_view().
+ */
+function HOOK_block_view($delta) {
+  $block = array();
+
+  switch($delta) {
+    case **delta**:
+      $block['subject'] = **subject**;
+      $block['content'] = array(**render_array**);
+    break;
+  }
+
+  return $block;
+}

@@ -1,6 +1,5 @@
 /**
- * Implementation of hook_uninstall
+ * Implements hook_uninstall().
  */
 function HOOK_uninstall() {
-  drupal_uninstall_schema('HOOK');
 }
