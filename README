@@ -12,15 +12,27 @@ Current commands:
  <F2>#fn<CR> - start a function with a Doxygen comment
  <F2>#i<CR> - start a skeleton .info file
 
- <F2>block<CR> - hook_block template
- <F2>fa<CR> - hook_form_alter template
- <F2>init<CR> - hook_init template
- <F2>menu<CR> - hook_menu template
- <F2>napi<CR> - hook_nodeapi template
- <F2>theme<CR> - hook_theme template
+ Templates:
 
- <f2>pp<CR> - hook_preprocess template
- <f2>ppb<CR> - hook_preprocess_block template
- <f2>ppp<CR> - hook_preprocess_page template
+ <F2>block<CR> - hook_block
+ <F2>fa<CR> - hook_form_alter
+ <F2>help<CR> - hook_help
+ <F2>init<CR> - hook_init
+ <F2>install<CR> - hook_install
+ <F2>menu<CR> - hook_menu
+ <F2>napi<CR> - hook_nodeapi
+ <F2>perm<CR> - hook_perm
+ <F2>req<CR> - hook_requirements
+ <F2>schema<CR> - hook_schema
+ <F2>tra<CR> - hook_theme_registry_alter
+ <F2>theme<CR> - hook_theme
+ <F2>uninstall<CR> - hook_uninstall
+ <F2>user<CR> - hook_user
+ <F2>vapi<CR> - hook_views_api
+
+ <f2>pp<CR> - hook_preprocess
+ <f2>ppb<CR> - hook_preprocess_block
+ <f2>ppn<CR> - hook_preprocess_node
+ <f2>ppp<CR> - hook_preprocess_page
 
 D6-compatible hooks only.

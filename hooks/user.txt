@@ -1,5 +1,5 @@
 /**
- * Implementation of hook_user
+ * Implements hook_user().
  */
 function HOOK_user($op, &$edit, &$account, $category = NULL) {
   switch($op) {
