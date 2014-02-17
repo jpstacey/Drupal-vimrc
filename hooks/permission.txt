@@ -1,0 +1,11 @@
+/**
+ * Implements hook_permission().
+ */
+function HOOK_permission() {
+  return array(
+    ** => array(
+      'title' => t(**),
+      'description' => t(**)
+    ),
+  );
+}

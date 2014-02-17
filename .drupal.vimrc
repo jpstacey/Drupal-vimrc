@@ -69,7 +69,8 @@ noremap <leader><F2>init<CR> :call <SID>InsertHook("init")<CR>
 noremap <leader><F2>install<CR> :call <SID>InsertHook("install")<CR>
 noremap <leader><F2>menu<CR> :call <SID>InsertHook("menu")<CR>
 noremap <leader><F2>napi<CR> :call <SID>InsertHook("nodeapi")<CR>
-noremap <leader><F2>perm<CR> :call <SID>InsertHook("perm")<CR>
+noremap <leader><F2>perm<CR> :call <SID>InsertHook("permission")<CR>
+noremap <leader><F2>d6perm<CR> :call <SID>InsertHook("perm")<CR>
 noremap <leader><F2>schema<CR> :call <SID>InsertHook("schema")<CR>
 noremap <leader><F2>ta<CR> :call <SID>InsertHook("theme_registry_alter")<CR>
 noremap <leader><F2>tra<CR> :call <SID>InsertHook("theme_registry_alter")<CR>
