@@ -48,14 +48,21 @@ function! s:InsertPP(pp)
   exe ':call <SID>InsertFile("preprocess","' . a:pp . '")'
 endfunction
 
-
 " Function to insert a hook template
 function! s:InsertFile(direc,file)
-  " Insert
-  exe ":read ~/.drupal_vim/" . a:direc .  "/" . a:file .  ".txt"
+  " Insert fragment file, checking to see if we're in a custom location
+  let s:drupal_vim_hooks = "~/.drupal_vim"
+  if exists("g:drupal_vim_dir")
+    let s:drupal_vim_hooks = g:drupal_vim_dir
+  endif
+  exe ":read " . s:drupal_vim_hooks . "/" . a:direc .  "/" . a:file .  ".txt"
+
   " Replace hook name with module name
   " Can't always autodetect file name e.g. if file not saved
-  let s:name = input("Module name? ")
+  let s:name = expand("%:t:r")
+  if (s:name == "")
+    let s:name = input("Module name? ")
+  endif
   exe ".,$s/HOOK/" . s:name . "/"
 endfunction
 
