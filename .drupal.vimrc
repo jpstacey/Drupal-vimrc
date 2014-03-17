@@ -70,6 +70,7 @@ endfunction
 noremap <leader><F2>block<CR> :call <SID>InsertHook("block")<CR>
 noremap <leader><F2>bi<CR> :call <SID>InsertHook("block_info")<CR>
 noremap <leader><F2>bv<CR> :call <SID>InsertHook("block_view")<CR>
+noremap <leader><F2>cron<CR> :call <SID>InsertHook("cron")<CR>
 noremap <leader><F2>fa<CR> :call <SID>InsertHook("form_alter")<CR>
 noremap <leader><F2>help<CR> :call <SID>InsertHook("help")<CR>
 noremap <leader><F2>init<CR> :call <SID>InsertHook("init")<CR>
