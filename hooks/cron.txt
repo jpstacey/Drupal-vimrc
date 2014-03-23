@@ -1,0 +1,5 @@
+/**
+ * Implements hook_cron().
+ */
+function HOOK_cron() {
+}

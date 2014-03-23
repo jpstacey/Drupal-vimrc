@@ -1,5 +1,5 @@
 /**
- * Implementation of hook_preprocess
+ * Implements hook_preprocess().
  */
-function HOOK_preprocess(&$vars, $hook) {
+function HOOK_preprocess(&$variables, $hook) {
 }
