@@ -16,6 +16,7 @@ set smartindent
 " Auto-highlight .module and .install files
 if has("autocmd")
   augroup module
+    autocmd!
     autocmd BufRead,BufNewFile *.module set filetype=php
     autocmd BufRead,BufNewFile *.install set filetype=php
   augroup END
